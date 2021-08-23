@@ -4,6 +4,8 @@
     justify-content: center;
     flex-direction: column;
     background-color: #7393B3;
+    border: transparent;
+    box-shadow: black;
 }
 
 .header h1 {
@@ -16,5 +18,71 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: black;
+    padding: 2em;
+}
+
+.about {
+    border: transparent;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+    background-color: mistyrose;
+}
+
+.about p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.sec {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    border: transparent;
+    padding: 1em;
+    background-color: mistyrose;
+}
+
+.sec h2 {
+    border: 5px transparent;
+}
+
+.card {
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 25px;
+    height: fit-content;
+    width: fit-content;
+    float: center;
+   
+    
+}
+
+.content {
+    padding: 1em;
+}
+
+span {
+    height: 2em;
+    width: 2em;
+}
+
+
+.nav    {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    border: transparent;
+    background-color: #7393B3;
+}
+
+.nav a {
+    font-size: 1.5em;
+
 }
