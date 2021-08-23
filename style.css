@@ -37,7 +37,7 @@ body {
     line-height: 1.5em;
 }
 
-.sec {
+.projects {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -49,19 +49,23 @@ body {
     background-color: mistyrose;
 }
 
-.sec h2 {
+.projects h2 {
     border: 5px transparent;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .card {
     background-color: white;
     border: 0px solid black;
-    border-radius: 25px;
     height: fit-content;
     width: fit-content;
-    float: center;
-   
-    
+    float: center;   
 }
 
 .content {
