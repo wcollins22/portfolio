@@ -3,24 +3,25 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #7393B3;
-    border: transparent;
-    box-shadow: black;
+    background-color: #0047AB;
+    border-bottom: .5px solid black;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .header h1 {
     font-weight: bold;
-
+    color: cornsilk;
 }
 
 .header p {
-    color: #36454F;
+    color: cornsilk;
 }
 
 body {
     background-color: black;
-    padding: 2em;
+
 }
+
 
 .about {
     border: transparent;
@@ -29,7 +30,8 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 1em;
-    background-color: mistyrose;
+    background-color: #28282B;
+    color: cornsilk;
 }
 
 .about p {
@@ -38,55 +40,74 @@ body {
 }
 
 .projects {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: fit-content;
-    border: transparent;
     padding: 1em;
-    background-color: mistyrose;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    place-items: center ;
+    background: #28282B;
 }
 
-.projects h2 {
-    border: 5px transparent;
-}
-
-.contents {
+.cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
 
 }
+
 
 .card {
-    background-color: white;
-    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+    border: 1px solid black;
+    border-radius: 25px;
     height: fit-content;
     width: fit-content;
-    float: center;   
+    box-shadow: 10px 10px 5px black;
+    transform: scale(0.8, 0.8);
 }
 
-.content {
-    padding: 1em;
+
+
+.content img {
+    border-radius: 25px;
+    border: 1px solid black;
 }
 
-span {
-    height: 2em;
-    width: 2em;
+.desc {
+    font-size: 20px;
+    width: 21em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
 }
 
+
+.content h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.date {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+
+    color: gray;
+}
 
 .nav    {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
     border: transparent;
-    background-color: #7393B3;
+    background-color: #0047AB;
+    position: relative;
 }
 
 .nav a {
     font-size: 1.5em;
+    color: cornsilk;
 
 }
