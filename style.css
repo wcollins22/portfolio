@@ -59,6 +59,8 @@ body {
 .projects a {
     color: black;
     text-decoration: none;
+    height: fit-content;
+    width: fit-content;
 }
 
 .cards {
@@ -123,6 +125,11 @@ nav a {
     color: cornsilk;
     line-height: 1.5em;
     text-decoration: none;
+    font-size: 20px;
+    border-left: 3px solid cornsilk;
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 
 .skills {
@@ -141,7 +148,7 @@ nav a {
 .skill_list h3 {
     color: cornsilk;
     font-size: 22px;
-    padding: 1em; 
+    padding: .5em;
 }
 
 .skills h1 {
@@ -157,9 +164,31 @@ nav a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 5em;
 }
 
 .skill img {
     height: 50px;
     width: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 5px solid black;
+    height: 100px;
+}
+
+.thing  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: cornsilk;
+
+}
+
+.thing p {
+    padding-left: 1em;
+    font-size: 20px;
 }
