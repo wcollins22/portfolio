@@ -10,7 +10,7 @@
 .header h1 {
     font-weight: bold;
     color: cornsilk;
-
+    font-size: 30px;
 }
 
 .header p {
@@ -21,6 +21,7 @@ body {
     background-color:#28282B;
     margin: 0em;
 }
+
 
 .section {
     background-color: #28282B;
@@ -129,7 +130,7 @@ nav a {
     border-left: 3px solid cornsilk;
     padding-left: 1em;
     padding-right: 1em;
-
+    scroll-behavior: smooth;
 }
 
 .skills {
