@@ -91,6 +91,7 @@ body {
 .content img {
     border-radius: 25px;
     border: 1px solid black;
+    object-fit: contain;
 
 }
 
