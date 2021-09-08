@@ -135,6 +135,11 @@ nav a {
     scroll-behavior: smooth;
 }
 
+.skills_sec {
+    display: flex;
+    justify-content: center;
+}
+
 .skills {
     display: flex;
     justify-content: center;
@@ -145,8 +150,10 @@ nav a {
 
 .skill_list {
     display: flex;
-    flex-direction:  row;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .skill_list h3 {
@@ -169,7 +176,7 @@ nav a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5em;
+    padding: 3em;
 }
 
 .skill img {
