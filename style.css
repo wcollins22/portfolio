@@ -41,6 +41,8 @@ body {
 .about p {
     font-size: 1.5em;
     line-height: 1.5em;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .projects {
