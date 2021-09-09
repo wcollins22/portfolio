@@ -3,22 +3,22 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #28282B;
+    background-color: #393f4d;
     border-bottom: transparent;
 }
 
 .header h1 {
     font-weight: bold;
-    color: cornsilk;
+    color: white;
     font-size: 30px;
 }
 
 .header p {
-    color: cornsilk;
+    color: white;
 }
 
 body {
-    background-color:#28282B;
+    background-color:#393f4d;
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -30,10 +30,8 @@ body {
     height: 100vh;
 }
 
-
-
 .section {
-    background-color: #28282B;
+    background-color: #0b0c10;
 }
 
 .about {
@@ -42,8 +40,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #28282B;
-    color: cornsilk;
+    background-color: #393f4d;
+    color: white;
     border-bottom: 5px solid black;
 }
 
@@ -59,12 +57,12 @@ body {
     display: flex;
     flex-direction: column;
     place-items: center;
-    background: #28282B;
+    background: #393f4d;
     border-bottom: 5px solid black;
 }
 
 .projects h1 {
-    color: cornsilk;
+    color: white;
 }
 
 .projects a {
@@ -84,7 +82,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: cornsilk;
+    background-color: #d4d4dc;
     border: 1px solid black;
     border-radius: 25px;
     height: 32em;
@@ -94,7 +92,7 @@ body {
 }
 
 .card:hover {
-    box-shadow: 10px 10px 5px teal;
+    box-shadow: 10px 10px 5px #66fcf1;
 }
 
 .content img {
@@ -129,16 +127,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
-    background-color: #28282B;
+    background-color: #393f4d;
     padding-left: 1em;
 }
 
 nav a {
-    color: cornsilk;
+    color: white;
     line-height: 1.5em;
     text-decoration: none;
     font-size: 20px;
-    border-left: 3px solid cornsilk;
+    border-left: 3px solid white;
     padding-left: 1em;
     padding-right: 1em;
     scroll-behavior: smooth;
@@ -166,7 +164,7 @@ nav a {
 }
 
 .skill_list h3 {
-    color: cornsilk;
+    color: white;
     font-size: 22px;
     padding: .5em;
 }
@@ -191,6 +189,7 @@ nav a {
 .skill img {
     height: 50px;
     width: 50px;
+    border: 1px solid white
 }
 
 .contacts {
@@ -211,10 +210,12 @@ nav a {
     height: 100px;
     width: 100px;
     box-shadow: 10px 10px 5px black;
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 .contact img:hover {
-    box-shadow: 10px 10px 5px teal;
+    box-shadow: 10px 10px 5px #66fcf1;
 }
 
 .contact_list {
