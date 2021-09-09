@@ -153,9 +153,9 @@ nav a {
 .skill_list {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .skill_list h3 {
