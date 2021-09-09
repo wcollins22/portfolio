@@ -19,8 +19,17 @@
 
 body {
     background-color:#28282B;
-    margin: 0em;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
+
+.main {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
 
 
 .section {
@@ -47,7 +56,6 @@ body {
 
 .projects {
     padding: 1em;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -72,7 +80,6 @@ body {
     align-items: center;
 
 }
-
 
 .card {
     display: flex;
@@ -217,3 +224,17 @@ nav a {
     align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+    .cards {
+        flex-direction: column;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .skill_list {
+        flex-direction: row;
+    }
+    .contact_list {
+        flex-direction: column;
+    }
+}
